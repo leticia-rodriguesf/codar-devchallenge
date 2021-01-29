@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base*/
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', 'sans-serif'; 
+    color: black;
+}
+
+/*Barra de Navegação*/
+
+header{
+    padding: 0 8px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2px;
+}
+
+header .container ul{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-left: 640px; /*Separa os elementos da barra com o "Codar"*/
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.navegar-direita{
+    display: flex;
+    float: left;
+    position: relative;
+    top: 6px;
+    justify-content:space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container li{
+    margin-right: 35px;
+    list-style-type:none;
+    
+}
+
+header nav a:hover{
+    color: #aaaaaa;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+/*Fazendo a Logo*/ 
+.logo{
+    margin: 25px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #D6000D;
+    margin-left: 50px;
+}
+
+.ponto{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+/* Botão */
+.botao {
+    padding: 10px 34px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+    background-color: #D6000D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor:pointer;
+    }
+.botao a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.imagem-principal{
+    width: 350px;
+    margin-right: 90px;
+}
+
+.principal{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+}
+
+.texto{
+    margin-top: 50px;
+}
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}   
+
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6000D;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.buttom3{
+    padding: 10px 34px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+    background-color: #D6000D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor:pointer;
+    }
+    
+.buttom3 a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buttom3:hover{
+    color: grey;
+}
+
+.buttom4:hover{
+    color: grey;
+}
+
+
+/*Segunda parte*/
+.recurso{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 6px;
+    margin-left: 250px;
+}
+
+.recurso ul{
+    margin-top: 100px;
+}
+
+.recurso li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/*Mudando a cor do icon - Font Awesome*/
+.fa-check-circle{
+    color: #D6000D;
+    margin-right: 25px;
+}
+
+.imagem2{
+    width: 450px;
+    margin-left: 100px;
+}
+
+.mini-box{
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.titulo-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.box{
+    margin-left: 4px;
+    display: flex;
+    position:relative;
+    align-items: center;
+}
+
+.caixa-texto{
+    width: 20%;
+    border-radius: 8px;
+    background-color: rgb(196, 196, 196);
+    border: 0; 
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(85, 81, 81);
+    margin-right: 10px;
+}
+
+.buttom4{
+    padding: 18px 34px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+    background-color: #D6000D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor:pointer;
+    }
+    
+.buttom4 a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Section de comentários*/
+.comentarios{
+    padding: 60px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.box-comentario1{
+    display: flex;
+    width: 600px;
+    background-color: rgb(196, 196, 196);
+    padding: 30px 45px 30px 20px;
+    border-radius: 8px;
+}
+.comentarios .box-comentario1{
+    margin-right: 50px;
+}
+
+.foto-deb{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 14px;
+    border: 2px solid #D6000D;
+}
+
+.box-comm1{
+    display:column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.comentario-deb{
+    margin-bottom: 10px;
+}
+
+.cliente-deb{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.cargo-deb{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*Segundo Comentário*/
+
+.box-comentario2{
+    margin-right: 10px;
+    display: flex;
+    width: 600px;
+    background-color: rgb(196, 196, 196);
+    padding: 30px 45px 30px 20px;
+    border-radius: 8px;
+}
+
+.foto-caio{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 14px;
+    border: 2px solid #D6000D;
+}
+
+.box-comm2{
+    display:column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.comentario-caio{
+    margin-bottom: 30px;
+}
+
+.cliente-caio{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.cargo-caio{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*Footer*/
+
+/*Codar.*/
+.container2{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 190px;
+}
+
+.titulo-codar{
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+    font-family: 'Roboto';
+    margin-bottom: 29px;
+}
+
+.codar{
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.subtitulo-codar{
+    font-size: 16px;
+}
+
+/*Sobre*/
+.sobre{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+    width: 200px;
+}
+
+.titulo-sobre{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+
+.subtitulo-sobre{
+    font-size: 16px;
+}
+
+/*Terceira Parte - Contato*/
+.contato{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.titulo-contato{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+
+.endereco{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.email{
+    color: white;
+}
+
+/*Terceira Parte - Contato*/
+.rede-social{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.titulo-redes-sociais{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+
+.lista-rede a{
+    text-decoration: none;
+}
+
+.fa-facebook-square{
+    color: #D6000D;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    color: #D6000D;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-twitter-square{
+    color: #D6000D;
+    font-size: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,150 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+    }
+
+    header .container ul {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+
+    header nav a{
+        font-size: 16px;
+    }
+    
+
+    .logo{
+        margin: 0;
+        font-size: 40px;
+        color: #D6000D;
+        margin-left: 10px;
+    }
+    
+    .ponto{
+        font-size: 50px;
+    }
+
+
+    .imagem-principal{
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+
+    }
+    
+    .principal{
+        display: block;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    
+    .botao{
+        visibility:hidden;
+        font-size: 0px;
+    }
+
+    .texto{
+        align-items: center;
+    }
+
+    .text1{
+        margin-left: 20px;
+        font-size: 15px;
+    }   
+    
+    .text2{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .buttom3{
+        margin-left: 20px;
+    }
+
+    .recurso{
+        display: block;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .imagem2{
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+    }
+
+    .mini-box{
+        margin-top: 50px;
+        margin-left: 50px;
+        display: block;
+    }
+
+    .titulo-box{
+        font-size: 20px;
+    }
+
+    .box{
+        margin-left: 4px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .caixa-texto{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    .buttom4{
+        padding: 20px 64px;
+    }
+
+    .comentarios{
+        padding: 10px;
+        display: block;
+    }
+
+    .box-comentario1{
+        display: flex;
+        width: 380px;
+        margin-bottom: 10px;
+    }
+
+    .box-comentario2{
+        display: flex;
+        width: 380px;
+        margin-bottom: 10px;
+    }
+
+    .container2{
+        padding: 100px;
+        display: block;
+    }
+    .codar{
+        margin-bottom: 50px;
+
+    }
+
+    .sobre{
+        margin-left: 0;
+    }
+
+    .subtitulo-sobre{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .contato{
+        margin-left: 0;
+    }
+
+    .email{
+        color: white;
+    }
+
+    .rede-social{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+}
