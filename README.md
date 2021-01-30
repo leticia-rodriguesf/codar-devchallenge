@@ -2,8 +2,6 @@
 
 ## Preview da Aplicação (Desktop 💻)
 ![Imagem](https://github.com/leticia-rodriguesf/codar-devchallenge/blob/main/design/desk1.png)
-![Imagem](https://github.com/leticia-rodriguesf/codar-devchallenge/blob/main/design/desk2png)
-![Imagem](https://github.com/leticia-rodriguesf/codar-devchallenge/blob/main/design/desk3.png)
 
 ## Preview da Aplicação (Mobile 📱)
 ![Imagem](https://github.com/leticia-rodriguesf/codar-devchallenge/blob/main/design/mobile-1.png)
